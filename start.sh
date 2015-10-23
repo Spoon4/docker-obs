@@ -6,4 +6,4 @@ docker run -ti --rm \
 	-v $HOME/.Xauthority:/home/obs/.Xauthority \
 	--device /dev/dri \
 	--net=host \
-docker-obs
+spoon4/docker-obs
