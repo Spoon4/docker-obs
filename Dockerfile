@@ -28,6 +28,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     
 # create user and map on host user
 # add new user to sudoers
+# TODO: uid / gid could be set with env var
 RUN export uid=1000 gid=1000
 RUN mkdir -p /home/obs
 RUN echo "obs:x:${uid}:${gid}:OpenBroadcastSoftware,,,:/home/obs:/bin/bash" >> /etc/passwd
