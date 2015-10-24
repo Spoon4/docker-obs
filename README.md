@@ -1,6 +1,4 @@
-# docker-obs
-
-[![Circle CI](https://circleci.com/gh/Spoon4/docker-obs.svg?style=svg)](https://circleci.com/gh/Spoon4/docker-obs)
+# docker-obs [![Circle CI](https://circleci.com/gh/Spoon4/docker-obs.svg?style=svg)](https://circleci.com/gh/Spoon4/docker-obs)
 
 A Docker image with [Open Broadcaster Software][obs] container to stream video content.
 
