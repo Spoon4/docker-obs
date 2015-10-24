@@ -16,7 +16,7 @@ or from [Docker Hub][dockerhub]
 
 #### Start Open Broadcaster Software
 
-With the start script after granted exec permission
+With the `start.sh` script after granted exec permission
 
 	$ chmod a+x start.sh
 	$ ./start.sh
